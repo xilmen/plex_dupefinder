@@ -33,6 +33,8 @@ Plex DupeFinder is a python script that finds duplicate versions of media (TV ep
 
 Duplicates can be either in bulk (automatic) or on-by-one (interactively).
 
+Fork : Replace API remove process by a local remove. With this, you car remove fastly double file withou plex account.
+
 
 # Demo
 
@@ -58,7 +60,7 @@ _Note: Steps below are for Debian-based distros (other operating systems will re
    sudo apt install python3 python3-pip
    ```
 
-1. Clone the Plex DupeFinder repo.
+1. Clone the Plex DupeFinder repo. (directly on plex server)
 
    ```
    sudo git clone https://github.com/l3uddz/plex_dupefinder /opt/plex_dupefinder
@@ -353,7 +355,7 @@ You will need to make sure that **Allow media deletion** is enabled in Plex.
 
 # Usage
 
-Simply run the script/command:
+Simply run the script/command: (directly on local plex server)
 
 ```
 plex_dupefinder
